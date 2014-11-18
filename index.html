@@ -1,4 +1,4 @@
-<html>
+<html ng-app="myApp">
   <head>
     <title>Benjamin Singer</title>
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
@@ -7,8 +7,10 @@
     <script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular.min.js"></script>
+    <script src="js/myjs.js"></script>
   </head>
-  <body>
+  <body ng-controller="controller as c">
+    <div id="dimmer"></div>
     <div class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
@@ -22,18 +24,18 @@
         <div class="navbar-collapse collapse" id="navbar-main">
           <ul class="nav navbar-nav">
             <li>
-              <a href="partials/about_me.html">About</a>
+              <a href="" ng-click="page = 'about'">About</a>
             </li>
             <li>
-              <a href="partials/blog.html">Blog</a>
+              <a href="" ng-click="page = 'blog'">Blog</a>
             </li>
             <li>
-              <a href="partials/my_projects.html">Projects</a>
+              <a href="" ng-click="page = 'projects'">Projects</a>
             </li>
           </ul>
 
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="partials/contact.html">Contact</a></li>
+            <li><a href="" ng-click="contact">Contact</a></li>
           </ul>
 
         </div>
@@ -46,12 +48,16 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12 text-center">
-          <h1 class="megaTitle">Hi, I'm Ben Singer</h1>
+          <h1 class="megaTitle whiteText">Hi, I'm Ben Singer</h1>
         </div>
       </div>
       <div class="row">
-        <div class="col-md-12 text-center">
-          <h1>I'm a software engineer, and more</h1>
+        <div class="col-md-12 text-center whiteText">
+          <h2>I'm a software engineer, and more</h2>
+          <br>
+          <br>
+          <p>Welcome to my website! This is where you can quickly look at all the stuff
+          that I've been working on, read my thoughts, and find my contact information.</p>
         </div>
       </div>
     </div>
