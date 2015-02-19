@@ -2,6 +2,7 @@ body {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 12px;
 	color: white;
+	background-color: #888;
 }
 
 .container {   
@@ -30,7 +31,7 @@ body {
 	left: calc(35% - 5px);
 	top: 10%;
 	width: 30%;
-	height: 30%;
+	height: 30%;	
 	background-image: url('https://avatars2.githubusercontent.com/u/3630755?v=3&amp;s=460');
 	background-size: cover;
 	background-position: center;
