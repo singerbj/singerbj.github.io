@@ -1,5 +1,7 @@
-var myApp = angular.module('myApp',[]);
+var setBkrd = function(){
+	var t = new Trianglify();
+	var pattern = t.generate(1920, 1080);
+	document.body.setAttribute('style', 'background-image: ' + pattern.dataUrl);
+}
 
-myApp.controller('controller', ['$scope', function($scope) {
-  this.c = "hello world!";
-}]);
+$('document').ready(setBkrd);

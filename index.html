@@ -1,65 +1,57 @@
 <html ng-app="myApp">
   <head>
-    <title>Benjamin Singer</title>
-    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
-    <link href="//bootswatch.com/sandstone/bootstrap.min.css" rel="stylesheet">
+    <title>Benjamin Singer</title>    
+    <link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link href="css/mycss.css" rel="stylesheet">
-    <script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular.min.js"></script>
-    <script src="js/myjs.js"></script>
+    
   </head>
   <body ng-controller="controller as c">
-    <div id="dimmer"></div>
-    <div class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <a href="../" class="navbar-brand">Ben Singer</a>
-          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-        </div>
-        <div class="navbar-collapse collapse" id="navbar-main">
-          <ul class="nav navbar-nav">
-            <li>
-              <a href="" ng-click="page = 'about'">About</a>
-            </li>
-            <li>
-              <a href="" ng-click="page = 'blog'">Blog</a>
-            </li>
-            <li>
-              <a href="" ng-click="page = 'projects'">Projects</a>
-            </li>
-          </ul>
-
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="" ng-click="contact">Contact</a></li>
-          </ul>
-
-        </div>
-      </div>
-    </div>
-
-    <br>
-    <br>
-    <br>
     <div class="container">
-      <div class="row">
-        <div class="col-md-12 text-center">
-          <h1 class="megaTitle whiteText">Hi, I'm Ben Singer</h1>
+      <div class="container2">
+        <div class="photo"></div>
+        <div class="name">
+          Benjamin Singer
         </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12 text-center whiteText">
-          <h2>I'm a software engineer, and more</h2>
-          <br>
-          <br>
-          <p>Welcome to my website! This is where you can quickly look at all the stuff
-          that I've been working on, read my thoughts, and find my contact information.</p>
+        <div class="subtitle">
+          Software Engineer
         </div>
+        <p class="text">
+          It looks like you found my portfolio page! Check out the links below to see my projects and what I'm up to.
+        </p>
+        <table class="links">
+          <tr>
+            <td>
+              <div class="link">
+                <a href="//github.com/singerbj"><i class="fa fa-github"></i></a>
+              <div>
+            </td>
+            <td>
+              <div class="link">
+                <a href="//plus.google.com/109733263834394050686/"><i class="fa fa-google-plus"></i></a>
+              <div>
+            </td>
+            <td>
+              <div class="link">
+                <a href="//twitter.com/singerbj"><i class="fa fa-twitter"></i></a>
+              <div>
+            </td>
+            <td>
+              <div class="link">
+                <a href="//www.linkedin.com/pub/benjamin-singer/4b/286/a43"><i class="fa fa-linkedin"></i></a>
+              </div>
+            </td>
+          </tr>
+        </table>          
       </div>
     </div>
+    
+
+
+    <script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="//d3js.org/d3.v3.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/trianglify/0.1.5/trianglify.min.js"></script>    
+    <script src="js/myjs.js"></script>
   </body>
 </html>
