@@ -1,65 +1,62 @@
 <html ng-app="myApp">
-  <head>
-    <title>Benjamin Singer</title>    
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Benjamin Singer</title>
     <link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link href="css/mycss.css" rel="stylesheet">
-    
-  </head>
-  <body ng-controller="controller as c">
+
+</head>
+<body ng-controller="controller as c">
     <div class="container">
-      <div class="container2">
-        <div class="photo"></div>
-        <div class="name">
-          Benjamin Singer
-        </div>
-        <div class="subtitle">
-          Software Engineer
-        </div>
-        <p class="text">
-          It looks like you found my personal site! Check out the links below to see my projects and what I'm up to.
-        </p>
-        <table class="links">
-          <tr>
-            <td>
-              <div class="link">
-                <a href="//github.com/singerbj"><i class="fa fa-github"></i></a>
-              <div>
-            </td>
-            <td>
-              <div class="link">
-                <a href="//plus.google.com/109733263834394050686/"><i class="fa fa-google-plus"></i></a>
-              <div>
-            </td>
-            <td>
-              <div class="link">
-                <a href="//twitter.com/singerbj"><i class="fa fa-twitter"></i></a>
-              <div>
-            </td>
-            <td>
-              <div class="link">
-                <a href="//www.linkedin.com/pub/benjamin-singer/4b/286/a43"><i class="fa fa-linkedin"></i></a>
-              </div>
-            </td>
-          </tr>
-        </table>          
-      </div>
-    </div>
-    
+        <div class="container2">
+            <div class="photo"></div>
+            <div class="name">
+                Benjamin Singer
+            </div>
+            <div class="subtitle">
+                Software Engineer
+            </div>
+            <p class="text">
+                It looks like you found my personal site! Check out the links below to see my projects and what I'm up to.
+            </p>
+            <table class="links">
+                <tr>
+                    <td>
+                        <div class="link">
+                            <a href="//github.com/singerbj"><i class="fa fa-github"></i></a>
+                            <div>
+                    </td>
+                    <td>
+                        <div class="link">
+                            <a href="//www.linkedin.com/pub/benjamin-singer/4b/286/a43"><i class="fa fa-linkedin"></i></a>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+            </div>
+            </div>
+            <script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
+            <script src="//d3js.org/d3.v3.min.js"></script>
+            <script src="//cdnjs.cloudflare.com/ajax/libs/trianglify/0.1.5/trianglify.min.js"></script>
+            <script src="js/myjs.js"></script>
+            <script>
+                (function(i, s, o, g, r, a, m) {
+                    i['GoogleAnalyticsObject'] = r;
+                    i[r] = i[r] || function() {
+                        (i[r].q = i[r].q || []).push(arguments)
+                    }, i[r].l = 1 * new Date();
+                    a = s.createElement(o),
+                        m = s.getElementsByTagName(o)[0];
+                    a.async = 1;
+                    a.src = g;
+                    m.parentNode.insertBefore(a, m)
+                })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+                ga('create', 'UA-61661082-1', 'auto');
+                ga('send', 'pageview');
+            </script>
+</body>
 
-
-    <script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script src="//d3js.org/d3.v3.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/trianglify/0.1.5/trianglify.min.js"></script>    
-    <script src="js/myjs.js"></script>
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-      ga('create', 'UA-61661082-1', 'auto');
-      ga('send', 'pageview');
-    </script>
-  </body>
 </html>
