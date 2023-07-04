@@ -86,7 +86,7 @@ function App() {
           </div>
         </div>
       </div>
-      <img className='loading' style={{ opacity: loading ? 1 : 0, transition: 'opacity 0.5s', position: 'fixed', width: '100%', top: 'calc(50% - 20px)' }} height="40" width="40"src="http://simpleicon.com/wp-content/uploads/loading_1.svg" />
+      <img className='loading' style={{ opacity: loading ? 1 : 0, transition: 'opacity 0.5s', position: 'fixed', width: '100%', top: 'calc(50% - 20px)' }} height="40" width="40"src="https://simpleicon.com/wp-content/uploads/loading_1.svg" />
     </>
   );
 }
